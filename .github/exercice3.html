@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>exercice3</title>
+</head>
+<body>
+  <script>
+    const TAUX_TVA = 0.20;   
+    let prixHT = 150;       
+
+    let prixTTC = prixHT + (TAUX_TVA * prixHT);
+    let tva = TAUX_TVA * prixHT;
+
+    console.log(`Prix HT : ${prixHT} € | TVA (20%) : ${tva} € | Prix TTC : ${prixTTC} €`);
+
+  
+    TAUX_TVA = 0.25;
+  </script>
+</body>
+</html>
